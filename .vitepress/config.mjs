@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  base: "/Flux-docs/",
+  head: [["link", { rel: "icon", href: "/Flux-docs/logo.svg" }]],
   title: "Flux",
   description: "A VitePress Site",
   themeConfig: {
