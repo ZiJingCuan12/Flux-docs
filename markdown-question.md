@@ -3,22 +3,16 @@
 安装、更新、卸载面板均使用同一条命令，运行后在菜单中选择对应操作：
 
 ```bash
-curl -L https://raw.githubusercontent.com/ZiJingCuan12/flux-panel/refs/heads/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
+curl -L https://raw.githubusercontent.com/ZiJingCuan12/User-MuFVps/main/panel_install.sh -o panel_install.sh; chmod +x panel_install.sh; ./panel_install.sh
 ```
-国内gitee
-```bash
-curl -L https://gitee.com/live-to-death-1/flux-panel/raw/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
-```
+
 ## 节点管理脚本
 节点的"更新"和"卸载"可直接使用以下命令，安装脚本请前往面板系统的"节点管理"页面复制获取：
 
 ```bash
-curl -L https://raw.githubusercontent.com/ZiJingCuan12/flux-panel/refs/heads/main/install.sh -o ./install.sh && chmod +x ./install.sh && ./install.sh
+curl -L https://raw.githubusercontent.com/ZiJingCuan12/User-MuFVps/refs/heads/main/install.sh -o ./install.sh && chmod +x ./install.sh && ./install.sh
 ```
-国内gitee
-```bash
-curl -L https://gitee.com/live-to-death-1/flux-panel/raw/main/install.sh -o ./install.sh && chmod +x ./install.sh && ./install.sh
-```
+
 ## 日志查看
 ### 查看后端服务日志
 当后端服务出现问题时，可以通过以下命令查看实时日志：

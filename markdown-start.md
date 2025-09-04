@@ -1,6 +1,6 @@
 # 快速开始
 
-本指南将帮助您快速安装和配置flux-panel，让您在几分钟内开始使用流量转发功能。
+本指南将帮助您快速安装和配置MuFVps-panel，让您在几分钟内开始使用流量转发功能。
 
 ## 系统要求
 
@@ -20,18 +20,15 @@
 我们提供了交互式安装脚本，会自动检测系统环境并引导您完成配置：
 
 ```bash
-curl -L https://raw.githubusercontent.com/ZiJingCuan12/flux-panel/refs/heads/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
+curl -L https://raw.githubusercontent.com/ZiJingCuan12/User-MuFVps/main/panel_install.sh -o panel_install.sh; chmod +x panel_install.sh; ./panel_install.sh
 ```
-国内gitee
-```bash
-curl -L https://gitee.com/live-to-death-1/flux-panel/raw/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
-```
+
 ## 安装流程说明
 
 1. **运行脚本后选择操作:**
 ```
 ===============================================
-          面板管理脚本
+          MuFVps面板管理脚本
 ===============================================
 请选择操作：
 1. 安装面板      ← 选择这个
