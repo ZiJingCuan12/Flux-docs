@@ -91,6 +91,15 @@ curl -L https://your-panel-server:6365/agent/install | bash -s -- --server=your-
 - 状态变为 🟢 **在线**
 - 显示 CPU/内存 等系统信息
 
+### 请手动执行系统调优命令
+```bash
+# 国内机器
+curl -sSL https://gitee.com/live-to-death-1/mu-fvps01/raw/master/XiTongTiaoYou.sh | sudo bash
+```
+```bash
+# 国外机器
+curl -sSL https://raw.githubusercontent.com/ZiJingCuan12/User-MuFVps/refs/heads/main/XiTongTiaoYou.sh | sudo bash
+```
 
 ## 第五步：创建隧道
 隧道定义流量的入口和出口节点
